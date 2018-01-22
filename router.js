@@ -1,16 +1,16 @@
 module.exports = (app)=>{
     //Splash Page
     app.get("/", (req, res)=>{
-        res.render("index");
+        res.render("splash");
     });
 
     //User Signup Page
     app.get("/signup", (req, res)=>{
-        res.send("Signup");
+        res.render("signup");
     });
 
     //User Login Page
     app.get("/login", (req, res)=>{
-        res.render("index");
+        res.render("login");
     });
 };
