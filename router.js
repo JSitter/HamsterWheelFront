@@ -1,7 +1,7 @@
 module.exports = (app)=>{
     //Splash Page
     app.get("/", (req, res)=>{
-        res.send("Success");
+        res.render("index");
     });
 
     //User Signup Page
@@ -11,6 +11,6 @@ module.exports = (app)=>{
 
     //User Login Page
     app.get("/login", (req, res)=>{
-        res.send("Login");
+        res.render("index");
     });
 };

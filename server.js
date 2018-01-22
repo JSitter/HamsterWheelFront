@@ -10,6 +10,9 @@
 
  const app = express();
  
+ //Activate Pug
+ app.set('view engine', 'pug')
+ 
  //Add bodyParser to App to get post data
 app.use(bodyParser.urlencoded({extended: true}));
 
