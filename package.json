@@ -1,0 +1,28 @@
+{
+  "name": "hamsterfront",
+  "version": "1.0.0",
+  "description": "Hamster Wheel Front End",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSitter/HamsterWheelFront.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSitter/HamsterWheelFront/issues"
+  },
+  "homepage": "https://github.com/JSitter/HamsterWheelFront#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
