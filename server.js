@@ -6,13 +6,14 @@
 
  const express = require('express');
  const bodyParser = require('body-parser');
+ //const pug = require('pug');
  require('dotenv').config();
 
  const app = express();
  
  //Activate Pug
- app.set('view engine', 'pug')
- 
+ app.set('view engine', 'pug');
+
  //Add bodyParser to App to get post data
 app.use(bodyParser.urlencoded({extended: true}));
 
