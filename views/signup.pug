@@ -1,9 +1,16 @@
 extend index
 
 block content
-    div Sign Up for Access
-    form(action="/signup")
-        label(for="userfield") Username
-        input(type="text" placeholder="Username" name="userfield")
-        label(for="passfield") Password
-        input(type="pasword" placeholder="Password" name="passfield")
+    div.container.col.s11 Sign Up for Access
+        form(action="/signup")
+            .input-field
+                input(id="username" type="text" name="userfield")
+                label(for="userfield") Username
+        
+            .input-field
+                input(id="password" type="password" class="validate")
+                label(for="password") Password
+
+            .input-field
+                input(id="password" type="password" class="validate")
+                label(for="password") Retype Password

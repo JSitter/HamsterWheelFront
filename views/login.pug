@@ -3,7 +3,10 @@ extend index
 block content
     div Login
     form(action="/login")
-        label(for="userfield") Username
-        input(type="text" placeholder="Username" name="userfield")
-        label(for="passfield") Password
-        input(type="pasword" placeholder="Password" name="passfield")
+        .input-field(col s12)
+            input(id="username" type="text" name="userfield")
+            label(for="userfield") Username
+      
+        .input-field(col s12)
+            input(id="password" type="password" class="validate")
+            label(for="password") Password
