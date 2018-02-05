@@ -46,6 +46,7 @@ header{
     padding-bottom: 5em;
     background-image: url('../imgs/beach-back.png');
     background-position: center;
+    background-repeat: no-repeat; 
     
 }
 
