@@ -1,12 +1,13 @@
 extend index
 
 block content
-    div Login
-    form(action="/login")
-        .input-field(col s12)
-            input(id="username" type="text" name="userfield")
-            label(for="userfield") Username
-      
-        .input-field(col s12)
-            input(id="password" type="password" class="validate")
-            label(for="password") Password
+    div.container.col.s11 Login
+        form(action="/login")
+            .input-field
+                input(id="username" type="text" name="userfield")
+                label(for="userfield") Username
+        
+            .input-field
+                input(id="password" type="password" class="validate")
+                label(for="password") Password
+            a.waves-effect.waves-light.btn-large Log In
