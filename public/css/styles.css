@@ -11,7 +11,56 @@
 *{
     font-size: 20px;
     font-family: juniortyping;
-    color: blue;
+    color: #00D895;
     
 }
+/***
+
+Text
+
+***/
+header *{
+    font-family: wickedmouse;
+}
+
+header a{
+    font-size: 2em;
+    color: #D8165A;
+}
+
+/* This is the hamster wheel logo that appears in the 
+navagation sometimes(?)
+*/
+.brand-logo {
+    font-family: wickedmouse;
+}
+
+/***
+
+Layouts
+
+***/
+
+header{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-image: url('../imgs/beach-back.png');
+    background-position: center;
+    
+}
+
+
+nav-wrapper{
+    background-color: #D8165A;
+}
+
+nav{
+    margin-bottom: 2em;
+}
+
+.brand-logo{
+    visibility: hidden;
+}
+
+
 

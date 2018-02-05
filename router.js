@@ -5,7 +5,7 @@ module.exports = (app)=>{
     });
 
     //User Signup Page
-    app.get("/signup", (req, res)=>{
+    app.get("/join", (req, res)=>{
         res.render("signup");
     });
 
