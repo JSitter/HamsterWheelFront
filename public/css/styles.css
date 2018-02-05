@@ -1,0 +1,12 @@
+@font-face {
+    font-family: wickedmouse;
+    src: url(/fonts/WicketMouseDemo.otf);
+}
+
+*{
+    font-size: 20px;
+    font-family: wicketmouse !important;
+    color: blue;
+    
+}
+
