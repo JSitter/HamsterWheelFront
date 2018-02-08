@@ -24,7 +24,7 @@ header *{
 
 header a{
     font-size: 2em;
-    color: #D8165A;
+    color: #1E9296;
 }
 
 /* This is the hamster wheel logo that appears in the 
@@ -36,6 +36,11 @@ navagation sometimes(?)
 .navigation{
     background-color: purple;
 }
+
+.header-link{
+    display: absolute;
+    right: 50%;
+}
 /***
 
 Layouts
@@ -45,10 +50,17 @@ Layouts
 header{
     padding-top: 5em;
     padding-bottom: 5em;
-    background-color: #69d1cf;
+    background-color: #dce7ed;
     background-image: url('../imgs/hamster-splash.jpg');
     background-position: center;
     background-repeat: no-repeat; 
+    background-size: cover;
+    height: 600px;
+    /* filter: hue-rotate(180deg);
+    filter: grayscale(50%); */
+    filter: saturate(2);
+    filter: opacity(70%)
+
     
 }
 
