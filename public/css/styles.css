@@ -10,8 +10,7 @@
 
 *{
     font-size: 20px;
-    font-family: juniortyping;
-    color: #00D895;
+    color: #555;
     
 }
 /***
@@ -34,7 +33,9 @@ navagation sometimes(?)
 .brand-logo {
     font-family: wickedmouse;
 }
-
+.navigation{
+    background-color: purple;
+}
 /***
 
 Layouts
@@ -44,7 +45,8 @@ Layouts
 header{
     padding-top: 5em;
     padding-bottom: 5em;
-    background-image: url('../imgs/beach-back.png');
+    background-color: #69d1cf;
+    background-image: url('../imgs/hamster-splash.jpg');
     background-position: center;
     background-repeat: no-repeat; 
     
@@ -64,4 +66,16 @@ nav{
 }
 
 
+.desc{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.profile{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
 
