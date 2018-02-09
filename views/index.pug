@@ -18,11 +18,11 @@ html
     header.center-align
       .overlay
         a(href='/') Hamster Wheel       
-
-    
-    .content-body
+    .main-body
       include includes/nav.pug
-      block content
+      .content-body
+        .container
+          block content
 
     footer
     // Import jQuery before materialize.js
