@@ -16,9 +16,13 @@ html
   body
 
     header.center-align
-      a(href='/') Hamster Wheel        
-    include includes/nav.pug
-    block content
+      .overlay
+        a(href='/') Hamster Wheel       
+
+    
+    .content-body
+      include includes/nav.pug
+      block content
 
     footer
     // Import jQuery before materialize.js

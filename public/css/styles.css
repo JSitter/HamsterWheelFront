@@ -24,7 +24,7 @@ header *{
 
 header a{
     font-size: 2em;
-    color: #1E9296;
+    color: #D7098C;
 }
 
 /* This is the hamster wheel logo that appears in the 
@@ -46,24 +46,28 @@ navagation sometimes(?)
 Layouts
 
 ***/
+body{
+    padding-top: 400px;
+}
 
 header{
-    padding-top: 5em;
-    padding-bottom: 5em;
+
     background-color: #dce7ed;
     background-image: url('../imgs/hamster-splash.jpg');
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
-    height: 600px;
+    height: 400px;
     /* filter: hue-rotate(180deg);
     filter: grayscale(50%); */
-    filter: saturate(2);
-    filter: opacity(70%)
+    filter: saturate(1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1000;
 
     
 }
-
 
 nav-wrapper{
     background-color: #D8165A;
@@ -72,11 +76,20 @@ nav-wrapper{
 nav{
     margin-bottom: 2em;
 }
-
-.brand-logo{
-    visibility: hidden;
+.content-body{
+    background-color: rgba(255,255,255,1);
+}
+.overlay{
+    padding-top: 150px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255, 0.7);
 }
 
+.brand-logo{
+    
+}
 
 .desc{
     margin-right: 10px;
@@ -91,3 +104,16 @@ nav{
     width: 300px;
 }
 
+.navigation, .container{
+    position: relative;
+}
+
+@media (min-width: 500px){
+    .overlay > a {
+        font-size: 4em;
+    }
+
+    .profile{
+        float: left;
+    }
+}
