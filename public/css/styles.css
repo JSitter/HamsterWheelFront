@@ -34,6 +34,8 @@ navagation sometimes(?)
     font-family: wickedmouse;
 }
 
+
+
 /***
 
 Layouts
@@ -78,11 +80,16 @@ header{
     background-color: rgba(255,255,255, 0.7);
 }
 
-.desc{
+.devel{
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.description{
+    padding: 25px;
+    color: purple;
 }
 
 .profile{
@@ -98,6 +105,7 @@ header{
     position: -webkit-sticky;
     position: sticky;
     margin-bottom: -80px;
+    border-bottom: 5px solid rgb(240, 223, 21);
 }
 
 .header-link{
