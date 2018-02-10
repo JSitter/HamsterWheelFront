@@ -65,7 +65,11 @@ nav-wrapper{
 }
 
 nav{
-    margin-bottom: -80px;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
+    position: sticky;
 }
 .main-body{
     background-color: rgba(255,255,255,1);
