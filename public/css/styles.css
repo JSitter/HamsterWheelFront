@@ -28,7 +28,7 @@ header *{
 
 header a{
 
-    font-size: 60px;
+    font-size: 70px;
     color: #D7098C;
 }
 
@@ -132,8 +132,15 @@ header{
 
 }
 
+.description{
+    font-weight: 300;
+}
 
 @media (min-width: 500px){
+    .content-body p{
+        font-size: 20px;
+    }
+
     .overlay > a {
         
     }
@@ -142,7 +149,5 @@ header{
         float: left;
     }
 
-    html{
-        font-size: 20px;
-    }
+
 }
