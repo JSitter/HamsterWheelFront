@@ -136,7 +136,7 @@ header{
     font-weight: 300;
 }
 
-@media (min-width: 800px){
+/* @media (min-width: 800px){
     .content-body p{
         font-size: 20px;
     }
@@ -150,4 +150,4 @@ header{
     }
 
 
-}
+} */
