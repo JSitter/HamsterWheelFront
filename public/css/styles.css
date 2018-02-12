@@ -113,6 +113,7 @@ header{
     position: -webkit-sticky;
     position: sticky;
     margin-bottom: -80px;
+    top: 0px;
     
 }
 
@@ -139,5 +140,9 @@ header{
 
     .profile{
         float: left;
+    }
+
+    html{
+        font-size: 20px;
     }
 }
