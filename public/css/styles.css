@@ -10,7 +10,7 @@
 
 *{
     color: #555;
-    
+
 }
 /***
 
@@ -32,7 +32,7 @@ header a{
 }
 
 
-/* This is the hamster wheel logo that appears in the 
+/* This is the hamster wheel logo that appears in the
 navagation sometimes(?)
 */
 .brand-logo {
@@ -55,7 +55,7 @@ header{
     background-color: #dce7ed;
     background-image: url('../imgs/hamster-splash.jpg');
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
     /* filter: hue-rotate(180deg);
@@ -64,7 +64,7 @@ header{
 
     z-index: -1000;
 
-    
+
 }
 
 
@@ -108,12 +108,12 @@ header{
 .navigation{
     background-color: #2b3351;
     z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0,0,0,.4); 
+    box-shadow: 0 4px 8px rgba(0,0,0,.4);
     position: -webkit-sticky;
     position: sticky;
     margin-bottom: -80px;
     top: 0px;
-    
+
 }
 
 .header-link{
@@ -135,13 +135,13 @@ header{
     font-weight: 300;
 }
 
-/* @media (min-width: 800px){
+@media (min-width: 500px){
     .content-body p{
         font-size: 20px;
     }
 
     .overlay > a {
-        
+
     }
 
     .profile{
@@ -149,4 +149,4 @@ header{
     }
 
 
-} */
+}
